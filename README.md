@@ -1,5 +1,5 @@
 # Scanning and parsing
-# code will fail once it reads the wrong pasring syntax,  ex -> (2 + / 4) OR ((A +B)  OR 3*5++2 ...etc
+code will fail once it reads the wrong pasring syntax,  ex -> (2 + / 4) OR ((A +B)  OR 3*5++2 ...etc
 
 [input01.txt](https://github.com/MeetMrDiaz/parsing-with-/files/9813525/input01.txt)
 [input02.txt](https://github.com/MeetMrDiaz/parsing-with-/files/9813526/input02.txt)
