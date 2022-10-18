@@ -33,7 +33,7 @@
   (cond [(equal? funcToken (first scannerTokens)) (rest scannerTokens)]
         [else(error(format "Syntax error found on match function ~a" (first scannerTokens)))]))
 
-(define (program tokens)                                                          ;The start of recirsive call/start program
+(define (program tokens)                                                          ;The start of recursive call/start program
   (cond [(or(equal? (first tokens) `ID)
             (equal? (first tokens) `read)
             (equal? (first tokens) `write) 
@@ -111,4 +111,4 @@
 (display "\n")
 (parse "input02.txt")
 (display "\n")
-(parse "input03.txt")   ; It gets to this file and it fails
+(parse "input03.txt")   ; It gets to this file and it fails because the wrong parsing syntax
